@@ -1,0 +1,83 @@
+body {
+    font-family: 游ゴシック, YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo, Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+}
+
+
+.header {
+	color: #fff;
+	background-color: #333;
+	padding: 4px 8px;
+}
+
+.content {
+	margin-top: 24px;
+	padding: 4px 12px;
+	margin-bottom: 12px;
+}
+
+.description-by {
+}
+
+.row {
+	margin-top: 20px;
+}
+.row:after {
+	content: ""; 
+	display: block; 
+	clear: both;
+}
+
+.col {
+	float:left;
+	width: 47%;
+}
+
+.col1 {
+	float:left;
+	width: 30%;
+}
+.col3 {
+	float:left;
+	width: 70%;
+}
+
+@media screen and (max-width: 700px) {
+	.col {
+		float:left;
+		width: 100%;
+	}
+	.col1 {
+		float:left;
+		width: 100%;
+	}
+	.col3 {
+		float:left;
+		width: 100%;
+	}
+}
+
+.content-panel {
+	padding: 8px 16px;
+}}
+.content-title {
+
+}
+.content-body {
+	padding: 4px 8px;
+}
+
+.footer {
+	padding: 4px 8px;
+}
+
+.timeline {
+	margin-top: 100px;
+	margin-left: 20%;
+}
+
+.sns {
+	width: 200px;
+	margin: 0 auto;
+}
